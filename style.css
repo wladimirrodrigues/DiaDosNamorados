@@ -3,7 +3,7 @@
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
             text-align: center;
-            margin-top: 90px;
+            margin-top: 40px;
             background-image: url(img/kelly-sikkema-5g8exOobDjg-unsplash.jpg);
             background-size: cover; /* Redimensiona a imagem para cobrir todo o plano de fundo */
  
@@ -13,9 +13,7 @@
         }
 
         h1 {
-            
             color: #ff4081;
-            margin-top: 50px;
         }
         .subtexto{
          color: #fff;
@@ -26,7 +24,7 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            margin-top: 50px;
+            margin-top: 30px;
         }
 
         .card {
@@ -70,8 +68,8 @@
           overflow: hidden; /* Garante que o texto não ultrapasse o contêiner */
           white-space: nowrap; /* Impede que o texto seja quebrado em várias linhas */
           margin: 0 auto; /* Centraliza o texto horizontalmente */
-          border-right: 0.15em solid; /* Simula o cursor piscando */
-          animation: typing 4s steps(40) infinite ; 
+          border-right: 0.15em solid ; /* Simula o cursor piscando */
+          animation: typing 5s   steps(30)  infinite  ; 
       }
       
       @keyframes typing {
@@ -79,7 +77,7 @@
               width: 0;
           }
           to {
-              width: 22%;
+              width: 30%;
           }
       }
       
